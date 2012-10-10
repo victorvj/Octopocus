@@ -14,7 +14,7 @@
 {
     BOOL hey = YES;
     // Override point for customization after application launch.
-    return YES;
+    return hey;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
