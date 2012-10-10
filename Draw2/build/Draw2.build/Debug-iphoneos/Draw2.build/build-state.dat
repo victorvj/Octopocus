@@ -1,0 +1,723 @@
+TDraw2
+v7
+r0
+t327519784.706759
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Draw2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist Draw2-Info.plist
+cCompileXIB /Users/hybrid/Desktop/Projects/Draw2/MainWindow.xib
+cCompileXIB /Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib
+cCopyPNGFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/icon.png icon.png
+cProcessPCH /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch.gch Draw2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o /Users/hybrid/Desktop/Projects/Draw2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o /Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2 normal armv7
+cGenerateDSYMFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app.dSYM /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+cProcessProductPackaging "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision" /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+cTouch /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+cCodeSign /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/BasicView.h
+c000000004DAFEA0800000000000000E8
+t1303374344
+s232
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m
+c000000004DAFE99400000000000000BB
+t1303374228
+s187
+i"BasicView.h"
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m
+c000000004DAFFB24000000000000032E
+t1303378724
+s814
+i"DrawView.h"
+i"Dot.h"
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.h
+c000000004DAFF8620000000000000115
+t1303378018
+s277
+i<Foundation/Foundation.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m
+c000000004DAFF53C00000000000000D3
+t1303377212
+s211
+i"Dot.h"
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.h
+c000000004DAFE79700000000000001DA
+t1303373719
+s474
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m
+c000000004DAFE7970000000000000808
+t1303373719
+s2056
+i"Draw2AppDelegate.h"
+i"Draw2ViewController.h"
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.h
+c000000004DAFE79700000000000000EF
+t1303373719
+s239
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m
+c000000004DAFE7970000000000000557
+t1303373719
+s1367
+i"Draw2ViewController.h"
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2ViewController.xib
+c000000004DAFECD800000000000041BF
+t1303375064
+s16831
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2_Prefix.pch
+c000000004DAFE79800000000000000B3
+t1303373720
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/DrawView.h
+c000000004DB001280000000000000121
+t1303380264
+s289
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/MainWindow.xib
+c000000004DAFE7980000000000004CF5
+t1303373720
+s19701
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app
+t1303380276
+s374
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app.dSYM
+t1303380276
+s102
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+t1303380276
+s25312
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2ViewController.nib
+t1303378970
+s1599
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist
+t1303378969
+s1056
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/MainWindow.nib
+t1303378971
+s1678
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/PkgInfo
+t1303378969
+s8
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/ResourceRules.plist
+t1303378969
+s485
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+t1303378977
+s7203
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+t1303378977
+s452
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/BasicView.o
+t1303378973
+s5264
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o
+t1303378973
+s7484
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2.LinkFileList
+c000000004DAFFC1900000000000002D5
+t1303378969
+s725
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o
+t1303378973
+s49848
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o
+t1303378973
+s38212
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o
+t1303380275
+s43188
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o
+t1303378973
+s6436
+
+N/Users/hybrid/Desktop/Projects/Draw/Draw2/main.m
+c000000004DAFE798000000000000016E
+t1303373720
+s366
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m
+c000000004DC1412700000000000021C8
+t1304510759
+s8648
+i"DrawView.h"
+i"Dot.h"
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.h
+c000000004DAFF8620000000000000115
+t1303378018
+s277
+i<Foundation/Foundation.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m
+c000000004DAFF53C00000000000000D3
+t1303377212
+s211
+i"Dot.h"
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.h
+c000000004DB0951800000000000001DA
+t1303418136
+s474
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m
+c000000004DB15C5500000000000007B9
+t1303469141
+s1977
+i"Draw2AppDelegate.h"
+i"Draw2ViewController.h"
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.h
+c000000004DB155AA0000000000000150
+t1303467434
+s336
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m
+c000000004DC13A1C000000000000056F
+t1304508956
+s1391
+i"Draw2ViewController.h"
+
+N/Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib
+c000000004DC14ED10000000000006AD6
+t1304514257
+s27350
+
+N/Users/hybrid/Desktop/Projects/Draw2/Draw2_Prefix.pch
+c000000004DAFE79800000000000000B3
+t1303373720
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/DrawView.h
+c000000004DC1307A000000000000020A
+t1304506490
+s522
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/hybrid/Desktop/Projects/Draw2/MainWindow.xib
+c000000004DAFE7980000000000004CF5
+t1303373720
+s19701
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+t1305826984
+s408
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app.dSYM
+t1304510817
+s102
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+t1304510817
+s31184
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2ViewController.nib
+t1304514265
+s4374
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist
+t1303378969
+s1056
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/MainWindow.nib
+t1303378971
+s1678
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/PkgInfo
+t1303378969
+s8
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/ResourceRules.plist
+t1303378969
+s485
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+t1303378977
+s7203
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/icon.png
+t1305826835
+s4053
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+t1303378977
+s452
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o
+t1303421895
+s7476
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2.LinkFileList
+c000000004DB0A3C50000000000000244
+t1303421893
+s580
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o
+t1303469967
+s49840
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o
+t1304508961
+s38628
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o
+t1304510817
+s53088
+
+N/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o
+t1303421895
+s6428
+
+N/Users/hybrid/Desktop/Projects/Draw2/icon.png
+c000000004DF5D2EF00000000000011E3
+t1307955951
+s4579
+
+N/Users/hybrid/Desktop/Projects/Draw2/main.m
+c000000004DAFE798000000000000016E
+t1303373720
+s366
+i<UIKit/UIKit.h>
+
+N/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision
+c000000004DAC172D0000000000001C23
+t1303123757
+s7203
+
+N/Users/hybrid/Library/MobileDevice/Provisioning Profiles/DC4C9F93-A70E-4AAA-A51B-1EC9C04C683B.mobileprovision
+c000000004DF4DB060000000000009F7D
+t1307892486
+s40829
+
+N/var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch.gch
+t1303421895
+s10647452
+
+N/var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch.gch
+t1303378972
+s10647452
+
+NDraw2-Info.plist
+c000000004DAFFC1700000000000004A0
+t1303378967
+s1184
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327519784#327519784#0(0"0(0#1#0"8607834912#0"0#
+
+CCodeSign /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app
+s325073076.071641
+e325073076.472045
+r1
+xCodeSign
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app
+lSLF07#2@39"CodeSign build/Debug-iphoneos/Draw2.app325073076#325073076#0(0"0(0#0#72"/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app8640635296#653"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Hanna Schneider (H8329YQFWQ)" --resource-rules=/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/ResourceRules.plist --entitlements /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app0#
+
+CCodeSign /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+s327519784.503668
+e327519784.706674
+r1
+xCodeSign
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+o/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app: replacing existing signature
+lSLF07#2@39"CodeSign build/Debug-iphoneos/Draw2.app327519784#327519784#0(98"/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app: replacing existing signature0(0#0#67"/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app8607702400#633"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Hanna Schneider (H8329YQFWQ)" --resource-rules=/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/ResourceRules.plist --entitlements /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/BasicView.o /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071773.077493
+e325071773.217154
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/BasicView.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m325071773#325071773#0(0"0(0#0#64"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m8613431584#1738"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../BasicView.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/BasicView.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071773.217290
+e325071773.330009
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m325071773#325071773#0(0"0(0#0#55"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m8614665088#1723"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Dot.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325114695.576070
+e325114695.681035
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o
+x/Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m325114695#325114695#0(0"0(0#0#50"/Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m8619191680#1668"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw2/Classes/Dot.m -o /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Dot.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071772.780423
+e325071773.077356
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m325071772#325071773#0(0"0(0#0#68"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m8618493632#1749"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2AppDelegate.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325162765.763892
+e325162767.229036
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o
+x/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m325162765#325162767#0(0"0(0#0#63"/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m8613494336#1694"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2AppDelegate.m -o /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2AppDelegate.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071773.042689
+e325071773.182443
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m325071773#325071773#0(0"0(0#0#71"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m8613732576#1755"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/Draw2ViewController.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326201760.902605
+e326201761.090079
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o
+x/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m326201760#326201761#0(0"0(0#0#66"/Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m8628240032#1700"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw2/Classes/Draw2ViewController.m -o /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2ViewController.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325073075.458667
+e325073075.925243
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m:8:
+o/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h:18: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'dots'
+lSLF07#2@71"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m325073075#325073075#0(398"In file included from /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m:8:/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h:18: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'dots'2(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed325073075#89#155#2(7@85"In file included from /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m325073075#18446744073709551615#0#0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m325071524#8#0#8#0#0"0(13@144"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073075#18446744073709551615#0#0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073064#18#0#18#0#0"0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073064#18#0#18#0#0"0(22@76"Assign attribute (default) not appropriate for non-gc object property 'dots'325073075#244#154#2(7@85"In file included from /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m325073075#18446744073709551615#0#0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m325071524#8#0#8#0#0"0(13@143"Assign attribute (default) not appropriate for non-gc object property 'dots' in /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073075#18446744073709551615#0#0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073064#18#0#18#0#0"0(6@63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.h325073064#18#0#18#0#0"0(0#0#63"/Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m8632788096#1736"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Classes/../DrawView.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o /Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326203616.814816
+e326203617.066210
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o
+x/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m: In function '-[DrawView touchesBegan:withEvent:]':
+o/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m:42: warning: unused variable 'distance'
+lSLF07#2@66"Compile /Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m326203616#326203617#0(210"/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m: In function '-[DrawView touchesBegan:withEvent:]':/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m:42: warning: unused variable 'distance'1(22@26"Unused variable 'distance'326203616#111#99#0(6@58"/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m326203559#42#0#42#0#19"unused variable '*'0(0#0#58"/Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m8612807456#1681"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw2/Classes/../DrawView.m -o /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/DrawView.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o /Users/hybrid/Desktop/Projects/Draw/Draw2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071772.778539
+e325071773.042222
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/hybrid/Desktop/Projects/Draw/Draw2/main.m325071772#325071773#0(0"0(0#0#48"/Users/hybrid/Desktop/Projects/Draw/Draw2/main.m8633756128#1717"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/main.m -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o /Users/hybrid/Desktop/Projects/Draw2/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325114695.273980
+e325114695.452259
+r1
+xCompileC
+xbuild/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o
+x/Users/hybrid/Desktop/Projects/Draw2/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/hybrid/Desktop/Projects/Draw2/main.m325114695#325114695#0(0"0(0#0#43"/Users/hybrid/Desktop/Projects/Draw2/main.m8613879328#1662"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -include /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch -c /Users/hybrid/Desktop/Projects/Draw2/main.m -o /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2ViewController.xib
+s325071769.763239
+e325071770.944596
+r1
+xCompileXIB
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2ViewController.xib
+lSLF07#2@34"CompileXIB Draw2ViewController.xib325071769#325071770#0(0"0(0#0#65"/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2ViewController.xib8624357088#567"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2ViewController.nib /Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/hybrid/Desktop/Projects/Draw/Draw2/MainWindow.xib
+s325071769.762138
+e325071771.034000
+r1
+xCompileXIB
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325071769#325071771#0(0"0(0#0#56"/Users/hybrid/Desktop/Projects/Draw/Draw2/MainWindow.xib31244220638101620#549"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/MainWindow.nib /Users/hybrid/Desktop/Projects/Draw/Draw2/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib
+s326207063.512125
+e326207065.487870
+r1
+xCompileXIB
+x/Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib
+lSLF07#2@34"CompileXIB Draw2ViewController.xib326207063#326207065#0(0"0(0#0#60"/Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib8624735936#552"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2ViewController.nib /Users/hybrid/Desktop/Projects/Draw2/Draw2ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/hybrid/Desktop/Projects/Draw2/MainWindow.xib
+r0
+
+CCopyPNGFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/icon.png icon.png
+s327519634.159563
+e327519635.195292
+r1
+xCopyPNGFile
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/icon.png
+xicon.png
+lSLF07#2@60"CopyPNGFile build/Debug-iphoneos/Draw2.app/icon.png icon.png327519634#327519635#0(0"0(0#0#45"/Users/hybrid/Desktop/Projects/Draw2/icon.png12948063684853856#448"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/hybrid/Desktop/Projects/Draw2/icon.png /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/icon.png0#
+
+CCpResource build/Debug-iphoneos/Draw2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s325071769.677568
+e325071769.762011
+r1
+xCpResource
+xbuild/Debug-iphoneos/Draw2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist325071769#325071769#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8633754624#498"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app0#
+
+CGenerateDSYMFile /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app.dSYM /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+s325073076.010824
+e325073076.066013
+r1
+xGenerateDSYMFile
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app.dSYM
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/Draw2.app.dSYM build/Debug-iphoneos/Draw2.app/Draw2325073076#325073076#0(0"0(0#0#78"/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw28618765632#365"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2 -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app.dSYM0#
+
+CGenerateDSYMFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app.dSYM /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+s326203617.177127
+e326203617.279039
+r1
+xGenerateDSYMFile
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app.dSYM
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/Draw2.app.dSYM build/Debug-iphoneos/Draw2.app/Draw2326203617#326203617#0(0"0(0#0#73"/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw28632774016#350"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2 -o /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app.dSYM0#
+
+CLd /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2 normal armv7
+s325073075.925360
+e325073076.010690
+r1
+xLd
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+xnormal
+xarmv7
+lSLF07#2@83"Link /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw2325073075#325073076#0(0"0(0#0#0"8628119072#827"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -filelist /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Draw20#
+
+CLd /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2 normal armv7
+s326203617.066332
+e326203617.177002
+r1
+xLd
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2
+xnormal
+xarmv7
+lSLF07#2@78"Link /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw2326203617#326203617#0(0"0(0#0#0"8632863456#802"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -filelist /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Objects-normal/armv7/Draw2.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Draw20#
+
+CProcessInfoPlistFile /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist Draw2-Info.plist
+s325071769.679167
+e325071769.703507
+r1
+xProcessInfoPlistFile
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist
+xDraw2-Info.plist
+lSLF07#2@24"Process Draw2-Info.plist325071769#325071769#0(0"0(0#0#58"/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2-Info.plist8632764032#566"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Draw2-Info.plist -genpkginfo /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/ResourceRules.plist -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/Info.plist Draw2-Info.plist
+r0
+
+CProcessPCH /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch.gch Draw2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325114693.780733
+e325114695.273675
+r1
+xProcessPCH
+x/var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch.gch
+xDraw2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Draw2_Prefix.pch325114693#325114695#0(0"0(0#0#53"/Users/hybrid/Desktop/Projects/Draw2/Draw2_Prefix.pch8613678592#1564"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -c /Users/hybrid/Desktop/Projects/Draw2/Draw2_Prefix.pch -o /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bfxluhhxzdfvjaccpytfgnzaezvz/Draw2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch.gch Draw2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325071771.034152
+e325071772.778250
+r1
+xProcessPCH
+x/var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch.gch
+xDraw2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Draw2_Prefix.pch325071771#325071772#0(0"0(0#0#58"/Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2_Prefix.pch8645028256#1614"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-generated-files.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-own-target-headers.hmap -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-all-target-headers.hmap -iquote /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2-project-headers.hmap -F/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/include -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources/armv7 -I/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/DerivedSources -c /Users/hybrid/Desktop/Projects/Draw/Draw2/Draw2_Prefix.pch -o /var/folders/dJ/dJglxezMEfeOTKRztdr1JE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Draw2_Prefix-bpzusptgvfaistfhitvtabaskyfg/Draw2_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision" /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+s325071777.858889
+e325071777.862795
+r1
+xProcessProductPackaging
+x/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision" build/Debug-iphoneos/Draw2.app/embedded.mobileprovision325071777#325071777#0(0"0(0#0#97"/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision8633373824#428"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision" -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/044EDFDF-91C7-4724-AAAA-641E85D03446.mobileprovision" /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/hybrid/Library/MobileDevice/Provisioning Profiles/DC4C9F93-A70E-4AAA-A51B-1EC9C04C683B.mobileprovision" /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+s325071777.867352
+e325071777.895694
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+lSLF07#2@169"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent325071777#325071777#0(0"0(0#0#98"/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent8642796896#432"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/hybrid/Desktop/Projects/Draw2/build/Draw2.build/Debug-iphoneos/Draw2.build/Draw2.xcent
+r0
+
+CTouch /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app
+s325073076.066523
+e325073076.071328
+r1
+xTouch
+x/Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app
+lSLF07#2@78"Touch /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app325073076#325073076#0(0"0(0#0#0"8642542016#268"    cd /Users/hybrid/Desktop/Projects/Draw/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hybrid/Desktop/Projects/Draw/Draw2/build/Debug-iphoneos/Draw2.app0#
+
+CTouch /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+s327519635.196601
+e327519635.253537
+r1
+xTouch
+x/Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app
+lSLF07#2@73"Touch /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app327519635#327519635#0(0"0(0#0#0"8603258560#258"    cd /Users/hybrid/Desktop/Projects/Draw2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hybrid/Desktop/Projects/Draw2/build/Debug-iphoneos/Draw2.app0#
+
