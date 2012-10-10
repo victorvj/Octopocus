@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577B01B7162594C400078949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01B6162594C400078949 /* UIKit.framework */; };
+		577B01B9162594C400078949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01B8162594C400078949 /* Foundation.framework */; };
+		577B01BB162594C400078949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01BA162594C400078949 /* CoreGraphics.framework */; };
+		577B01C1162594C400078949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577B01BF162594C400078949 /* InfoPlist.strings */; };
+		577B01C3162594C400078949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B01C2162594C400078949 /* main.m */; };
+		577B01C7162594C400078949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B01C6162594C400078949 /* AppDelegate.m */; };
+		577B01C9162594C400078949 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 577B01C8162594C400078949 /* Default.png */; };
+		577B01CB162594C400078949 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 577B01CA162594C400078949 /* Default@2x.png */; };
+		577B01CD162594C400078949 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 577B01CC162594C400078949 /* Default-568h@2x.png */; };
+		577B01D6162594C400078949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B01D5162594C400078949 /* ViewController.m */; };
+		577B01DE162594C400078949 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01DD162594C400078949 /* SenTestingKit.framework */; };
+		577B01DF162594C400078949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01B6162594C400078949 /* UIKit.framework */; };
+		577B01E0162594C400078949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577B01B8162594C400078949 /* Foundation.framework */; };
+		577B01E8162594C400078949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577B01E6162594C400078949 /* InfoPlist.strings */; };
+		577B01EB162594C400078949 /* OctopocusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B01EA162594C400078949 /* OctopocusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577B01E1162594C400078949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577B01A9162594C400078949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577B01B1162594C400078949;
+			remoteInfo = Octopocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		577B01B2162594C400078949 /* Octopocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octopocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577B01B6162594C400078949 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		577B01B8162594C400078949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		577B01BA162594C400078949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		577B01BE162594C400078949 /* Octopocus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Octopocus-Info.plist"; sourceTree = "<group>"; };
+		577B01C0162594C400078949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		577B01C2162594C400078949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577B01C4162594C400078949 /* Octopocus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Octopocus-Prefix.pch"; sourceTree = "<group>"; };
+		577B01C5162594C400078949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		577B01C6162594C400078949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		577B01C8162594C400078949 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		577B01CA162594C400078949 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		577B01CC162594C400078949 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		577B01D4162594C400078949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		577B01D5162594C400078949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		577B01DC162594C400078949 /* OctopocusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctopocusTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577B01DD162594C400078949 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		577B01E5162594C400078949 /* OctopocusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctopocusTests-Info.plist"; sourceTree = "<group>"; };
+		577B01E7162594C400078949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		577B01E9162594C400078949 /* OctopocusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctopocusTests.h; sourceTree = "<group>"; };
+		577B01EA162594C400078949 /* OctopocusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctopocusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577B01AF162594C400078949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01B7162594C400078949 /* UIKit.framework in Frameworks */,
+				577B01B9162594C400078949 /* Foundation.framework in Frameworks */,
+				577B01BB162594C400078949 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577B01D8162594C400078949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01DE162594C400078949 /* SenTestingKit.framework in Frameworks */,
+				577B01DF162594C400078949 /* UIKit.framework in Frameworks */,
+				577B01E0162594C400078949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577B01A7162594C400078949 = {
+			isa = PBXGroup;
+			children = (
+				577B01BC162594C400078949 /* Octopocus */,
+				577B01E3162594C400078949 /* OctopocusTests */,
+				577B01B5162594C400078949 /* Frameworks */,
+				577B01B3162594C400078949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577B01B3162594C400078949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577B01B2162594C400078949 /* Octopocus.app */,
+				577B01DC162594C400078949 /* OctopocusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577B01B5162594C400078949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577B01B6162594C400078949 /* UIKit.framework */,
+				577B01B8162594C400078949 /* Foundation.framework */,
+				577B01BA162594C400078949 /* CoreGraphics.framework */,
+				577B01DD162594C400078949 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		577B01BC162594C400078949 /* Octopocus */ = {
+			isa = PBXGroup;
+			children = (
+				577B01C5162594C400078949 /* AppDelegate.h */,
+				577B01C6162594C400078949 /* AppDelegate.m */,
+				577B01D4162594C400078949 /* ViewController.h */,
+				577B01D5162594C400078949 /* ViewController.m */,
+				577B01BD162594C400078949 /* Supporting Files */,
+			);
+			path = Octopocus;
+			sourceTree = "<group>";
+		};
+		577B01BD162594C400078949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577B01BE162594C400078949 /* Octopocus-Info.plist */,
+				577B01BF162594C400078949 /* InfoPlist.strings */,
+				577B01C2162594C400078949 /* main.m */,
+				577B01C4162594C400078949 /* Octopocus-Prefix.pch */,
+				577B01C8162594C400078949 /* Default.png */,
+				577B01CA162594C400078949 /* Default@2x.png */,
+				577B01CC162594C400078949 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		577B01E3162594C400078949 /* OctopocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				577B01E9162594C400078949 /* OctopocusTests.h */,
+				577B01EA162594C400078949 /* OctopocusTests.m */,
+				577B01E4162594C400078949 /* Supporting Files */,
+			);
+			path = OctopocusTests;
+			sourceTree = "<group>";
+		};
+		577B01E4162594C400078949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				577B01E5162594C400078949 /* OctopocusTests-Info.plist */,
+				577B01E6162594C400078949 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577B01B1162594C400078949 /* Octopocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577B01EE162594C400078949 /* Build configuration list for PBXNativeTarget "Octopocus" */;
+			buildPhases = (
+				577B01AE162594C400078949 /* Sources */,
+				577B01AF162594C400078949 /* Frameworks */,
+				577B01B0162594C400078949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octopocus;
+			productName = Octopocus;
+			productReference = 577B01B2162594C400078949 /* Octopocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577B01DB162594C400078949 /* OctopocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577B01F1162594C400078949 /* Build configuration list for PBXNativeTarget "OctopocusTests" */;
+			buildPhases = (
+				577B01D7162594C400078949 /* Sources */,
+				577B01D8162594C400078949 /* Frameworks */,
+				577B01D9162594C400078949 /* Resources */,
+				577B01DA162594C400078949 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577B01E2162594C400078949 /* PBXTargetDependency */,
+			);
+			name = OctopocusTests;
+			productName = OctopocusTests;
+			productReference = 577B01DC162594C400078949 /* OctopocusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577B01A9162594C400078949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hanna&Victor";
+			};
+			buildConfigurationList = 577B01AC162594C400078949 /* Build configuration list for PBXProject "Octopocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 577B01A7162594C400078949;
+			productRefGroup = 577B01B3162594C400078949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577B01B1162594C400078949 /* Octopocus */,
+				577B01DB162594C400078949 /* OctopocusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577B01B0162594C400078949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01C1162594C400078949 /* InfoPlist.strings in Resources */,
+				577B01C9162594C400078949 /* Default.png in Resources */,
+				577B01CB162594C400078949 /* Default@2x.png in Resources */,
+				577B01CD162594C400078949 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577B01D9162594C400078949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01E8162594C400078949 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		577B01DA162594C400078949 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577B01AE162594C400078949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01C3162594C400078949 /* main.m in Sources */,
+				577B01C7162594C400078949 /* AppDelegate.m in Sources */,
+				577B01D6162594C400078949 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577B01D7162594C400078949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B01EB162594C400078949 /* OctopocusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577B01E2162594C400078949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577B01B1162594C400078949 /* Octopocus */;
+			targetProxy = 577B01E1162594C400078949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		577B01BF162594C400078949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577B01C0162594C400078949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		577B01E6162594C400078949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577B01E7162594C400078949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		577B01EC162594C400078949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577B01ED162594C400078949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577B01EF162594C400078949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octopocus/Octopocus-Prefix.pch";
+				INFOPLIST_FILE = "Octopocus/Octopocus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		577B01F0162594C400078949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octopocus/Octopocus-Prefix.pch";
+				INFOPLIST_FILE = "Octopocus/Octopocus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		577B01F2162594C400078949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Octopocus.app/Octopocus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octopocus/Octopocus-Prefix.pch";
+				INFOPLIST_FILE = "OctopocusTests/OctopocusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		577B01F3162594C400078949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Octopocus.app/Octopocus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octopocus/Octopocus-Prefix.pch";
+				INFOPLIST_FILE = "OctopocusTests/OctopocusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577B01AC162594C400078949 /* Build configuration list for PBXProject "Octopocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B01EC162594C400078949 /* Debug */,
+				577B01ED162594C400078949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577B01EE162594C400078949 /* Build configuration list for PBXNativeTarget "Octopocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B01EF162594C400078949 /* Debug */,
+				577B01F0162594C400078949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		577B01F1162594C400078949 /* Build configuration list for PBXNativeTarget "OctopocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B01F2162594C400078949 /* Debug */,
+				577B01F3162594C400078949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577B01A9162594C400078949 /* Project object */;
+}
